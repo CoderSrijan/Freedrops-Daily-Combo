@@ -61,7 +61,6 @@ let comboo = hambtn.addEventListener("click", ()=> {
       puzzle.style.display = 'inline';
       puzzle.style.scale = '2.4';
       puzzle.style.transform = 'translateY(-90px)';
-      puzzle.style.position = 'fixed';
       close.style.transform = 'translateY(-12px)'
       
       pspan1.style.scale = '2.4';
