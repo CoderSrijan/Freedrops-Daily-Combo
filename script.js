@@ -275,7 +275,12 @@ meme.addEventListener("click",()=>{
       next.style.filter = 'blur(4px)';
       uls.style.filter = 'blur(4px)';
 
-   })
+   }) 
+
+    document.addEventListener('DOMContentLoaded', function() {
+  var imageUrl = 'https://res.cloudinary.com/ddbxn1la8/image/upload/v1725163305/e447461fb97a720a02abb30a9f0be8f7.jpg';
+  document.querySelector('.sspan').style.backgroundImage = `url('${imageUrl}?v=${new Date().getTime()}')`;
+});
 
    let close = document.createElement('button');
    container.append(close);
