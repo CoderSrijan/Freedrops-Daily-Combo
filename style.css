@@ -439,7 +439,7 @@ nav h1{
     background-color: red;
     position: relative;
     z-index: 2;
-    transform: translateY(90px);
+    transform: translateY(75px);
     outline: none;
     border: none;
     border-radius: 5px;
@@ -507,7 +507,7 @@ nav h1{
 }
 
 .notice button{
-    transform: translate(330px,310px);
+    transform: translate(330px,220px);
     font-size: 22px;
     background-color: #0a22f6;
     border: none;
@@ -626,12 +626,12 @@ footer{
     }
 
     .notice{
-        width: 80%;
-        height: 65%;
+        width: 88%;
+        height: 72%;
     }
 
     .notice button{
-        transform: translate(85px,50px);
+        transform: translate(85px,20px);
     }
 
     footer{
