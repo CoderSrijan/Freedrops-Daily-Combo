@@ -583,7 +583,7 @@ footer{
     }
 
     .close{
-        transform: translateY(250px);
+        transform: translateY(230px);
         position: absolute;
     }
 
@@ -627,11 +627,11 @@ footer{
 
     .notice{
         width: 88%;
-        height: 72%;
+        height: 75%;
     }
 
     .notice button{
-        transform: translate(85px,20px);
+        transform: translate(85px,-10px);
     }
 
     footer{
