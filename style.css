@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
 }
 
 body{
     overflow: hidden;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body::selection{
@@ -409,7 +410,8 @@ nav h1{
 
 .hs,.hs1,.hs2,.hs3,.hs4,.hs5,.hs6,.hs7{
     background-color: rgb(151, 146, 141);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto; 
     border-radius: 10px;
     width: 630px;
     
