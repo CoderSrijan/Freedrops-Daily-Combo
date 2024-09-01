@@ -252,7 +252,7 @@ nav h1{
 
 .splo span{
     /* background-color: #1D3467; */
-    background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725159681/updd9g0n6dfnxl6xhemz.jpg?v=4');
+    background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725159681/updd9g0n6dfnxl6xhemz.jpg?v=5');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -277,7 +277,7 @@ nav h1{
 }
 
 .pspan{
-    background: url('Assets/hmcmb.jpg');
+    background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725199496/IMG_20240901_193401_rfbxli.jpg?v=1');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,7 +289,7 @@ nav h1{
 }
 
 .gspan{
-    background: url('Assets/gcmb.jpg');
+    background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725198971/IMG_20240901_103701_340_yhikwx.jpg?v=1');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,7 +301,7 @@ nav h1{
 }
 
 .gspan1{
-    background: url('Assets/gcp.jpg');
+    background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725198960/IMG_20240901_145012_kblrqd.jpg?v=1');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -583,8 +583,9 @@ footer{
     }
 
     .close{
-        transform: translateY(230px);
+        transform: translateY(227px);
         position: absolute;
+        height:40px;
     }
 
     #puzzle{
@@ -631,7 +632,7 @@ footer{
     }
 
     .notice button{
-        transform: translate(85px,-10px);
+        transform: translate(88px,-4px);
     }
 
     footer{
