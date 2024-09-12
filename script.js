@@ -87,7 +87,7 @@ let comboo = hambtn.addEventListener("click", ()=> {
 pspan2.addEventListener("click",()=> {
    
    close.style.transform = 'translateY(52px)'
-   pspan2.style.background = "url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725180471/IMG_20240901_065610_yi6kyn.jpg?v=9')";
+   pspan2.style.background = "url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725180471/IMG_20240901_065610_yi6kyn.jpg?v=10')";
    pspan2.style.backgroundRepeat = 'no-repeat';
    pspan2.style.transform = 'translate(100px,40px)'
    pspan2.style.minHeight = '500px';
