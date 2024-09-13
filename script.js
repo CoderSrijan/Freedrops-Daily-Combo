@@ -87,7 +87,7 @@ let comboo = hambtn.addEventListener("click", ()=> {
 pspan2.addEventListener("click",()=> {
    
    close.style.transform = 'translateY(52px)'
-   pspan2.style.background = "url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725180471/IMG_20240901_065610_yi6kyn.jpg?v=10')";
+   pspan2.style.background = "url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725180471/IMG_20240901_065610_yi6kyn.jpg?v=11')";
    pspan2.style.backgroundRepeat = 'no-repeat';
    pspan2.style.transform = 'translate(100px,40px)'
    pspan2.style.minHeight = '500px';
@@ -225,7 +225,7 @@ meme.addEventListener("click",()=>{
 
    let mp2 = document.createElement("h1");
    mempo.append(mp2);
-   mp2.innerText = '2 2 2 2 (Neck/Chest x 4)';
+   mp2.innerText = '4 2 4 2 (Leg,Neck x 2)';
    mp2.style.backgroundColor = '#1c21db';
    mp2.style.color = 'white';
    mp2.style.borderRadius = '8px';
