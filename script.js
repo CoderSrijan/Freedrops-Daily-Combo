@@ -6,6 +6,7 @@ let gem = document.getElementById('gem')
 let hotb = document.getElementById('hotb')
 let meme = document.getElementById('meme')
 let spl = document.getElementById('spl')
+let mjr = document.getElementById('mjd')
 
 let container = document.getElementById('container')
 let uls = document.getElementById('uls');
@@ -200,6 +201,59 @@ let gemc = gem.addEventListener("click", ()=> {
 
    close.addEventListener("click", ()=> {
       gemzpo.remove()
+      close.remove()
+      uls.style.filter = 'none';
+      next.style.filter = 'none';
+}) 
+
+
+})
+
+let mjd = mjr.addEventListener("click", ()=> {
+   let mjpo = document.createElement("div");
+   container.append(mjpo);
+   mjpo.className = 'mjpo';
+
+   let mj1 = document.createElement("h1");
+   mjpo.append(mj1);
+   mj1.innerText = 'Today,s Combo'
+
+   let mjspan = document.createElement("span");
+   mjpo.append(mjspan);
+   mjspan.className = 'mjspan';
+
+   let mjspan1 = document.createElement("span");
+   mjpo.append(mjspan1);
+   mjspan1.className = 'mjspan1';
+
+   mjspan.addEventListener("click",()=>{
+      mjspan.style.scale = '1.6'
+      mjspan.style.transform = 'translateY(50px)';
+      mjspan.style.zIndex = '2';
+      next.style.filter = 'blur(4px)';
+      mjspan1.style.filter = 'blur(4px)';
+      uls.style.filter = 'blur(4px)';
+
+   })
+
+   mjspan1.addEventListener("click",()=>{
+         mjspan1.style.scale = '1.6'
+         mjspan1.style.transform = 'translateY(-80px)';
+         mjspan1.style.zIndex = '2';
+         next.style.filter = 'blur(4px)';
+         mjspan.style.filter = 'blur(4px)';
+         uls.style.filter = 'blur(4px)';
+
+   })
+
+   let close = document.createElement('button');
+   container.append(close);
+   close.className = 'close';
+   close.innerText = 'Close';
+   
+
+   close.addEventListener("click", ()=> {
+      mjpo.remove()
       close.remove()
       uls.style.filter = 'none';
       next.style.filter = 'none';
