@@ -145,6 +145,23 @@ nav h1{
     transform: translate(0px,-22px);
 }
 
+.mjpo{
+    background-color: #fff;
+    height: 550px;
+    width: 700px;
+    z-index: 2;
+    position: absolute;
+    filter: none;
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 8px;
+    flex-direction: column;
+    overflow: hidden;
+    transform: translate(0px,-22px);
+}
+
 .mempo{
     background-color: #fff;
     height: 550px;
@@ -289,6 +306,28 @@ nav h1{
 }
 
 .gspan{
+    background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725198971/IMG_20240901_103701_340_yhikwx.jpg?v=12');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 412px;
+    height: 392px;
+    border-radius: 15px;
+    /* border: 2px solid rebeccapurple; */
+    
+}
+
+.gspan1{
+    background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725198960/IMG_20240901_145012_kblrqd.jpg?v=12');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 412px;
+    height: 392px;
+    border-radius: 15px;
+}
+
+.mjspan{
     background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1725198971/IMG_20240901_103701_340_yhikwx.jpg?v=12');
     background-position: center;
     background-repeat: no-repeat;
