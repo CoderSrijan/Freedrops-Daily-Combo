@@ -251,6 +251,21 @@ nav h1{
     overflow: hidden;
 }
 
+.mjpo span{
+    /* background-color: #1D3467; */
+    /* background: url('hmcmb.jpg'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* border-radius: 15px; */
+    /* height: 55%; */
+    /* position: relative; */
+    /* z-index: 2; */
+    margin: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
 .mempo span{
     /* background-color: #1D3467; */
     background: url('https://res.cloudinary.com/ddbxn1la8/image/upload/v1726190190/IMG_20240913_063834_616_fkrlwo.jpg?v=0');
